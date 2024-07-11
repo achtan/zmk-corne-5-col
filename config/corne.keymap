@@ -42,7 +42,7 @@
         compatible = "zmk,combos";
 
         caps-combo {
-            bindings = <&kp CAPSLOCK>;
+            bindings = <&caps_word>;
             key-positions = <16 19>;
         };
     };
