@@ -88,10 +88,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL             &kp AT                 &kp LEFT_BRACE                       &kp RIGHT_BRACE        &kp PIPE     &kp PLUS   &kp N7        &kp N8        &kp N9        &kp ASTERISK   &none
-&none  &hml RIGHT_ALT HASH  &hml RIGHT_ALT DOLLAR  &hml RIGHT_COMMAND LEFT_PARENTHESIS  &hml RIGHT_SHIFT RPAR  &kp GRAVE    &kp MINUS  &kp NUMBER_4  &kp N5        &kp N6        &kp SQT        &none
-&none  &kp PERCENT          &kp CARET              &kp LBKT                             &kp RBKT               &kp TILDE    &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH  &none
-                                                   &trans                               &trans                 &trans       &trans     &trans        &kp N0
+&none  &kp EXCL                &kp AT                 &kp LEFT_BRACE                       &kp RIGHT_BRACE        &kp PIPE     &kp PLUS   &kp N7               &kp N8                 &kp N9             &kp ASTERISK            &none
+&none  &hml LEFT_CONTROL HASH  &hml RIGHT_ALT DOLLAR  &hml RIGHT_COMMAND LEFT_PARENTHESIS  &hml RIGHT_SHIFT RPAR  &kp GRAVE    &kp MINUS  &hml RIGHT_SHIFT N4  &hml RIGHT_COMMAND N5  &hml RIGHT_ALT N7  &hml RIGHT_CONTROL SQT  &none
+&none  &kp PERCENT             &kp CARET              &kp LBKT                             &kp RBKT               &kp TILDE    &kp EQUAL  &kp NUMBER_1         &kp NUMBER_2           &kp NUMBER_3       &kp BACKSLASH           &none
+                                                      &trans                               &trans                 &trans       &trans     &trans               &kp N0
             >;
         };
     };
