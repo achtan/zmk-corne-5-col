@@ -64,15 +64,6 @@
         };
     };
 
-    macros {
-        switch_app: switch_app {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp TILDE &kp LEFT_COMMAND>;
-            label = "SWITCH_APP";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -99,10 +90,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &trans  &trans          &mmv MOVE_UP    &trans           &trans         &trans    &mkp LCLK      &mkp RCLK    &trans     &trans  &none
-&none  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans         &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &none
-&none  &trans  &trans          &trans          &trans           &switch_app    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &none
-                               &trans          &trans           &trans         &trans    &trans         &trans
+&none          &trans  &trans          &mmv MOVE_UP    &trans           &trans    &trans    &mkp LCLK      &mkp RCLK    &trans     &trans  &none
+&none          &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &none
+&kp LG(TILDE)  &trans  &trans          &trans          &trans           &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &none
+                                       &trans          &trans           &trans    &trans    &trans         &trans
             >;
         };
 
