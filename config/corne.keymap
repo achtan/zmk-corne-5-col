@@ -90,9 +90,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N1  &mmv MOVE_UP    &kp N3           &kp N4  &kp N5    &kp N6    &mkp LCLK      &mkp RCLK    &kp N9     &kp N0  &none
-&none  &trans  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &none
-&none  &to 0   &trans          &trans           &trans  &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &none
+&none  &trans  &trans    &mmv MOVE_UP          &trans  &trans    &trans    &mkp LCLK      &mkp RCLK    &trans     &trans  &none
+&none  &trans  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &none
+&none  &trans   &trans          &trans           &trans  &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &none
                                &trans           &trans  &trans    &trans    &trans         &trans
             >;
         };
