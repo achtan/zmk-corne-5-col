@@ -91,10 +91,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &trans         &trans  &trans  &trans  &trans    &trans    &mkp LCLK      &mkp RCLK    &trans     &trans  &none
-&none  &trans         &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &none
-&none  &kp LG(TILDE)  &trans  &trans  &trans  &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &none
-                              &trans  &trans  &trans    &trans    &trans         &trans
+&none  &trans         &trans     &trans     &trans     &trans    &trans    &mkp LCLK      &mkp RCLK    &trans     &trans  &none
+&none  &trans         &trans     &trans     &trans     &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &none
+&none  &kp LG(TILDE)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &none
+                                 &trans     &trans     &trans    &trans    &trans         &trans
             >;
         };
 
